@@ -1,12 +1,75 @@
-<!DOCTYPE html>
-<html lang="pt-Br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    nav {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        width: 100vw;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .banner h1 {
+        font-size: 32px;
+    }
+
+    .banner p {
+        font-size: 16px;
+    }
+
+    .buttons {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .buttons button {
+        padding: 10px 20px;
+        margin-right: 10px;
+    }
+</style>
 </head>
+
 <body>
-    
+    <nav>
+        <a href="#">Destinos</a>
+        <a href="#">Blog</a>
+        <a href="#">Contato</a>
+        <a href="#">Sobre</a>
+        <a href="#">Políticas</a>
+    </nav>
+
+    <div class="banner">
+        <h1>A melhor maneira de viajar</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.</p>
+    </div>
+
+    <div class="buttons">
+        <button>Download</button>
+        <button>Destinos</button>
+    </div>
 </body>
+
 </html>
