@@ -1,193 +1,64 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0 auto;
-            padding: 0;
-        }
-
-        body {
-            background-color: white;
-            color: black;
-        }
-
-        nav {
-            background-color: black;
-            color: white;
-            padding: 10px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-right: 10px;
-        }
-
-        .banner {
-            text-align: center;
-            padding: 50px;
-        }
-
-        .banner h1 {
-            font-size: 32px;
-        }
-
-        .banner p {
-            font-size: 16px;
-        }
-
-        .buttons {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .buttons button {
-            padding: 10px 20px;
-            margin-right: 10px;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/dog-face-svgrepo-com.svg" type="image/svg+xml">
+    <title>Adote um bichinho</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <nav>
-        <a href="#">Destinos</a>
-        <a href="#">Blog</a>
-        <a href="#">Contato</a>
-        <a href="#">Sobre</a>
-        <a href="#">Políticas</a>
-    </nav>
 
-    <div class="banner">
-        <h1>A melhor maneira de viajar</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat.</p>
-    </div>
+    <header class="header">
+        <h1>BUSINESS.<span class="logo">FLY</span></h1>
+        <nav>
+            <ul>
+                <li><a href="">Download</a></li>
+                <li><a href="">Destinos</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Sobre nós</a></li>
+                <li><a href="">Políticas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h3>Viajar com a equipe?</h3>
+        <h2>BUSINESS.FLY</h2>
+        <span class="btn-hero">
+            <a href="" class="btn btn-download">Download</a>
+            <a href="" class="btn">Destinos</a>
+        </span>
+    </section>
+    <section class="solutions">
+        <div class="solution-item">
+            <img src="./assets/img/pexels-quang-nguyen-vinh-2133015 (1).jpg" alt="icone web">
+            <h3>Cachorros</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repudiandae laudantium maxime.</p>
+            <a href="" class="btn">Mais informações</a>
+        </div>
+        <div class="solution-item">
+            <img src="./assets/img/pexels-amir-ghoorchiani-1183434.jpg" alt="icone mobile">
+            <h3>Gatos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repudiandae laudantium maxime.</p>
+            <a href="" class="btn">Mais informações</a>
+        </div>
+        <div class="solution-item">
+            <img src="./assets/img/pexels-pixabay-55834.jpg" alt="icone big data">
+            <h3>Pássaros</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repudiandae laudantium maxime.</p>
+            <a href="" class="btn">Mais informações</a>
+        </div>
+        <div class="solution-item">
+            <img src="./assets/img/pexels-pragyan-bezbaruah-2566315.jpg" alt="icone cloud">
+            <h3>Dragões</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repudiandae laudantium maxime.</p>
+            <a href="" class="btn">Mais informações</a>
+        </div>
+    </section>
 
-    <div class="buttons">
-        <button>Download</button>
-        <button>Destinos</button>
-    </div>
 </body>
 
 </html>
-<!-- <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .container {
-            width: 100%;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .nav {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            height: 80px;
-        }
-
-        .nav-logo {
-            font-size: 32px;
-            font-weight: bold;
-            color: #333333;
-        }
-
-        .nav-links {
-            display: flex;
-            list-style: none;
-        }
-
-        .nav-link {
-            margin-left: 20px;
-            font-size: 18px;
-            color: #333333;
-            text-decoration: none;
-        }
-
-        .nav-link:hover {
-            color: #666666;
-        }
-
-        .main {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: calc(100vh - 80px);
-        }
-
-        .main-icon {
-            width: 300px;
-            height: 300px;
-        }
-
-        .main-content {
-            margin-left: 50px;
-        }
-
-        .main-slogan {
-            font-size: 48px;
-            font-weight: bold;
-            color: #333333;
-        }
-
-        .main-buttons {
-            display: flex;
-            margin-top: 20px;
-        }
-
-        .main-button {
-            width: 150px;
-            height: 50px;
-            border-radius: 25px;
-            border: none;
-            font-size: 18px;
-            font-weight: bold;
-            color: white;
-        }
-
-        .main-button-android {
-            background-color: #3ddc84;
-            margin-right: 20px;
-        }
-
-        .main-button-ios {
-            background-color: #007aff;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="container">
-        <div class="nav">
-            <div class="nav-logo">BusinessFly.com</div>
-            <ul class="nav-links">
-                <li><a href="#" class="nav-link">Download</a></li>
-                <li><a href="#" class="nav-link">Destinos</a></li>
-                <li><a href="#" class="nav-link">Blog</a></li>
-                <li><a href="#" class="nav-link">Contato</a></li>
-                <li><a href="#" class="nav-link">Sobre Nos</a></li>
-                <li><a href="#" class="nav-link">Politicas</a></li>
-            </ul>
-        </div>
-        <div class="main">
-            <img src="envelope.png" alt="Envelope" class="main-icon">
-            <div class="main-content">
-                <div class="main-slogan">Pense grande, voe com o BusinessFly</div>
-                <div class="main-buttons">
-                    <button class="main-button main-button-android">Baixar para Android</button>
-                    <button class="main-button main-button-ios">Baixar para iOS</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-
-</html> -->
