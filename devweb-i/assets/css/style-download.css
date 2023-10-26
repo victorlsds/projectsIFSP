@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&amp;display=swap');
+
+.hero {
+    width: 90%;
+    height: 85vh;
+    margin: 10px auto;
+    /* background-image: url(../img/aviao-fundo.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.svg-logo {
+    height: 7rem;
+}
+.btn-hero {
+    /* display: flex; */
+    margin: 30px 20px;
+}
+.hero h3 {
+    color: var(--color-light);
+    font-size: 6vmin;
+    letter-spacing: -1px;
+    margin: 20px;
+}
+.hero h2 {
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    font-size: 12vmin;
+    line-height: 50%;
+    color: var(--color-blue);
+    line-height: 70%;
+    margin: 30px;
+    background-color: rgb(0, 102, 255);
+  
+    /* Gradiente da fonte. */
+    background-image: linear-gradient(45deg, #2f68e4, #568a4f);
+    
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.hero h4 {
+    color: rgb(255, 255, 255);
+    font-size: 4vmin;
+}
+
+.btn {
+    background-color: var(--color-light);
+    padding: 5px 25px;
+    border: 3px solid var(--color-blue);
+    color: var(--color-blue);
+    font-weight: 900;
+    border-radius: 25px;
+    font-size: 30px;
+}
+
+.btn:hover{
+    background-color: var(--color-blue);
+    color: var(--color-light);
+    transition: 0.5s;
+}
+
+@media(max-width:900px) {
+    .hero {
+        margin-top: 20px;
+    }
+}

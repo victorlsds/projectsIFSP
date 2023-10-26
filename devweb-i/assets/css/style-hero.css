@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&amp;display=swap');
+
+.hero {
+    width: 90%;
+    height: 85vh;
+    margin: 10px auto;
+    background-image: url(../img/aviao-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+.btn-hero {
+    display: flex;
+    margin: 25px 10px;
+}
+.btn-download {
+    margin-right: 20px;
+}
+.hero h3 {
+    color: var(--color-light);
+    font-size: 6vmin;
+    letter-spacing: -1px;
+}
+.hero h2 {
+    font-size: 12vmin;
+    line-height: 50%;
+    color: var(--color-blue);
+    line-height: 70%;
+}
+.hero h4 {
+    color: rgb(255, 255, 255);
+    font-size: 4vmin;
+}
+
+.btn {
+    background-color: var(--color-light);
+    padding: 5px 25px;
+    border: 3px solid var(--color-blue);
+    color: var(--color-blue);
+    font-weight: 900;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: var(--color-blue);
+    color: var(--color-light);
+    transition: 0.5s;
+}
+
+@media(max-width:900px) {
+    .hero {
+        margin-top: 20px;
+    }
+}

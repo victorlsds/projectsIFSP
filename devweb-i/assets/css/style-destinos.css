@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&amp;display=swap');
+
+.title-section{
+    text-align: center;
+    font-size: xx-large;
+    margin: 15px 0px;
+    color: var(--color-light);
+}
+
+.solutions {
+    width: 98%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.solution-item {
+    width: 22%;
+    border: 1px dotted var(--color-blue);
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+    background-color: #ffffff;
+    margin: 20px 0;
+}
+
+.solution-item img {
+    max-width: 100%;
+    border-radius: 7px;
+}
+
+.solution-item h3 {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.solution-item p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: var(--color-light);
+    padding: 5px 30px;
+    border: 1px solid var(--color-blue);
+    color: var(--color-blue);
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: var(--color-blue);
+    color: var(--color-light);
+    transition: 0.5s;
+}
+
+/* aqui começa a parte responsiva */
+@media(max-width:1250px) {
+    .solution-item {
+        width: 48%;
+        justify-content: space-evenly;
+        margin: 20px 0;
+    }
+}
+
+@media(max-width:900px) {
+    .solution-item {
+        width: 90%;
+    }
+}
