@@ -26,6 +26,9 @@
 html, body {
     font-family: 'Catamaran', sans-serif;
     background: linear-gradient(109.6deg, rgba(80, 154, 175, 0.5) 11.2%, rgb(125, 216, 199, 0.5) 59.3%, rgb(245, 255, 195, 0.5) 92.7%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 a {

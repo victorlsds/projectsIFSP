@@ -1,9 +1,13 @@
-html, body {
+html,
+body {
     font-family: 'Catamaran', sans-serif;
     background: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.title-section{
+.title-section {
     text-align: center;
     font-size: xx-large;
     margin: 15px 0px;
